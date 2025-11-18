@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "sprintf/multi-tenant-bundle": {
+            "manifest": {
+                "bundles": {
+                    "SprintF\\Bundle\\MultiTenant\\SprintFMultiTenantBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "ref": "87663ee165f874c9bc3019b0419c61f04ae3334e"
+        }
+    }
+}
