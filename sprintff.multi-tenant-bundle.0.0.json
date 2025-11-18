@@ -6,6 +6,19 @@
                     "SprintF\\Bundle\\MultiTenant\\SprintFMultiTenantBundle": [
                         "all"
                     ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/packages/sprintf_multi_tenant.yaml": {
+                    "contents": [
+                        "sprintf_multi_tenant:",
+                        "    tenant_entity: '\\App\\Entity\\Tenant'",
+                        ""
+                    ],
+                    "executable": false
                 }
             },
             "ref": "87663ee165f874c9bc3019b0419c61f04ae3334e"
