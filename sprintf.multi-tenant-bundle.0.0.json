@@ -14,7 +14,7 @@
             "files": {
                 "config/packages/sprintf_multi_tenant.yaml": {
                     "contents": [
-                        "sprintf_multi_tenant:",
+                        "sprint_f_multi_tenant:",
                         "    tenant_entity: '\\App\\Entity\\Tenant'",
                         ""
                     ],
